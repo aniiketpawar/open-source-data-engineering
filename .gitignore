@@ -1,0 +1,20 @@
+# Docker volumes
+postgres_airflow_data/
+postgres_superset_data/
+minio_data/
+superset_data/
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE/Editor specific
+.idea/
+.vscode/
+
+# Raw and Processed data - we don't want to upload large data files
+spark-data/
