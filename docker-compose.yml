@@ -1,5 +1,4 @@
 # docker-compose.yml
-# FINAL, DEFINITIVE VERSION - Uses a stable Superset image and correct startup command.
 
 services:
   postgres_airflow:
